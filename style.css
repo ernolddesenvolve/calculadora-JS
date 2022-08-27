@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 30px;
+    background-color: #555;
+    border-radius: 10px;
+}
+
+form input{
+    padding: 10px;
+    font-weight: bold;
+    outline: none;
+    text-align: right;
+    width: 90%;
+}
+
+.options{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+span{
+    padding: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 1px solid #555;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+
+span:hover{
+    background-color: #eee;
+}
+
+.ce{
+    background-color: #ff3232;
+    color: #fff;
+    font-weight: bold;
+    width: 82px;
+}
+
+.ce:hover{
+    background-color: #ee3232;
+}
